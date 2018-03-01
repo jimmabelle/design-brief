@@ -1,0 +1,96 @@
+.Section {
+  border-top: 2px solid #f2f2f2;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Section .top-left,
+.Section .top-right,
+.Section .bottom-left,
+.Section .bottom-right {
+  width: 488px;
+  height: 255px;
+  display: flex;
+  border: 1px solid #f2f2f2;
+  background-color: pink;
+}
+
+.Section .top-left-img,
+.Section .top-right-img,
+.Section .bottom-left-img,
+.Section .bottom-right-img {
+  width: 200px;
+}
+
+.Section .top-left-img {
+  background-image: url(../../images/medium-image-puff-1.jpeg);
+}
+
+.Section .top-right-img {
+  background-image: url(../../images/medium-image-puff-2.png);
+}
+
+.Section .bottom-left-img {
+  background-image: url(../../images/medium-image-puff-4.jpeg);
+}
+
+.Section .bottom-right-img {
+  background-image: url(../../images/medium-image-puff-3.png);
+}
+
+.Section .top-left-img,
+.Section .top-right-img,
+.Section .bottom-left-img,
+.Section .bottom-right-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Section .top-left-text,
+.Section .top-right-text,
+.Section .bottom-left-text,
+.Section .bottom-right-text {
+  width: 288px;
+  position: relative;
+  font-size: small;
+  padding: 16px;
+}
+
+.Section .writer-1,
+.Section .writer-2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  top: 200px;
+}
+
+.Section .writer-3,
+.Section .writer-4 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+.Section .name-writer-1,
+.Section .name-writer-2,
+.Section .name-writer-3,
+.Section .name-writer-4 {
+  position: absolute;
+  top: 185px;
+  left: 70px;
+  font-size: small;
+}
+
+.Section .bookmark {
+  position: absolute;
+  top: 210px;
+  left: 250px;
+}

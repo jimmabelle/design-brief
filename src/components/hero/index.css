@@ -1,0 +1,46 @@
+.Hero {
+  width: 100%;
+  display: inline-flex;
+  margin: 40px 0;
+}
+
+.Hero .left {
+  width: 75%;
+}
+
+.Hero .right {
+  width: 35%;
+}
+
+.Hero img {
+  width: 100%;
+}
+
+.Hero h1 {
+  font-size: 42px;
+}
+
+.Hero p {
+  padding-top: 25px;
+}
+
+.Hero .bttn {
+  margin-top: 40px;
+}
+
+.Hero .bttn a:first-child {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.Hero .bttn a:last-child {
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid #000;
+  color: #000;
+  margin-left: 8px;
+  text-decoration: none;
+}

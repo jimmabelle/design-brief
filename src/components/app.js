@@ -1,11 +1,16 @@
 import React from "react"
+import Header from "./header"
+import Hero from "./hero"
+import Section from "./section"
 
 class App extends React.Component {
 
   render() {
     return (
-      <div>
-        Find me in src/app.js!
+      <div className="App">
+        <Header />
+        <Hero />
+        <Section />
       </div>
     )
   }
